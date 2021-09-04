@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500;1,700&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+:root {
+	font-size: 10px;
+}
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-size: 1.8rem;
+}
+html, body {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgba(147, 187, 233, 0.418);
+}
+.intro {
+    padding: 30px;
+}
+.intro h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 700;
+}
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2f10a;
+}
+.container > div:nth-child(odd) {
+    background-color: orange;
+    background: url(./girl.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.container {
+    /* height: 80vh; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 20rem);
+    grid-gap: 1.5rem;
+}
+
+.header {
+    grid-column: 1/-1;
+}
+.menu {
+    grid-column: 1/2;
+}
+.content {
+    grid-column: 2/-1;
+}
+.footer {
+    grid-column: 1/-1;
+}
