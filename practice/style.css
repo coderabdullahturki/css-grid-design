@@ -41,7 +41,7 @@ html, body {
     background: url(./girl.jpg) center no-repeat;
     background-size: cover;
 }
-
+/* grid css start from here */
 .container {
     height: calc(95vh - 6rem);
     display: grid;
