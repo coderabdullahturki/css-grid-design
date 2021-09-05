@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,500;1,700&display=swap');
 /* font-family: 'Ubuntu', sans-serif; */
 
-
+/* Basic Css Styles */
 :root {
 	font-size: 10px;
 }
@@ -41,7 +41,11 @@ html, body {
     background: url(./girl.jpg) center no-repeat;
     background-size: cover;
 }
-/* grid css start from here */
+
+
+/* Grid css start from here */
+
+
 .container {
     height: calc(95vh - 6rem);
     display: grid;
