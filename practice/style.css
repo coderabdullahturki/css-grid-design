@@ -35,13 +35,24 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #e2f10a;
+    background-size: cover;
 }
 .container > div:nth-child(3) {
     background-color: orange;
-    background: url(./girl.jpg) center no-repeat;
+    background: url(./bg.jpg) bottom center no-repeat;
+    color: #fff;
+}
+.container > div:nth-child(2) {
+    background: url(./cat.jpg) center no-repeat;
+    color: #fff;
     background-size: cover;
 }
-
+.container > div:nth-child(4),
+.container > div:nth-child(5)
+ {
+    background: url(./sub_cat.jpg) center no-repeat;
+    color: #fff;
+}
 
 /* Grid css start from here */
 
